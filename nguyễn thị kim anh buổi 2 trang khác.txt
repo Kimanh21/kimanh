@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>trang khác btn=vn b2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <table cellspancing="10" align="left" cellpadding="10">
+                <tr align="middle" BgColor="Lime">
+                    <th colspan="6" width="200"><i>My tech stock picks</i></th> 
+                </tr>
+                <tr align="left">
+                    <th width="50">NAME </th>
+                    <th width="30">SYMBOL</th>
+                    <th width="30">CURRENT</th>
+                    <th width="30">52WK HI</th>
+                    <th width="30">52WK LO</th>
+                    <th width="30">P/E RATIO</th>
+                </tr>
+                <tr align="center" BgColor="Green">
+                        <td width="50">Microsoft </td>
+                        <td width="30">MSFT</td>
+                        <td width="30">86-3/8</td>
+                        <td width="30">119-15/16</td>
+                        <td width="30">75-1/12</td>
+                        <td width="30">56.09</td>
+                </tr>
+                <tr align="center">
+                        <td width="50">Cisco Systems </td>
+                        <td width="30">CSCO</td>
+                        <td width="30">72-1/8</td>
+                        <td width="30">82</td>
+                        <td width="30">24-13/16</td>
+                        <td width="30">400.69</td>
+                </tr>
+                <tr align="center" BgColor="Green">
+                        <td width="50">American Online </td>
+                        <td width="30">AOL</td>
+                        <td width="30">63</td>
+                        <td width="30">95-13/16</td>
+                        <td width="30">38-15/32</td>
+                        <td width="30">350.00</td>
+                </tr>
+                <tr align="center">
+                        <td width="50">Qwest Communications </td>
+                        <td width="30">Q</td>
+                        <td width="30">44-7/16</td>
+                        <td width="30">66</td>
+                        <td width="30">25-3/4</td>
+                        <td width="30">74.06</td>
+                </tr>
+                <tr align="center" BgColor="Green">
+                        <td width="50">Dell Computer </td>
+                        <td width="30">DELL</td>
+                        <td width="30">53-59/64</td>
+                        <td width="30">59-11/6</td>
+                        <td width="30">31-3/8</td>
+                        <td width="30">86.97</td>
+                </tr>
+            </table>
+            <a href="file:///C:/Users/Hp/Desktop/Web-%20learn/nguy%E1%BB%85n%20th%E1%BB%8B%20kim%20anh%20b2.html" target="Blank">
+<tr>Quay lại trang trước</tr>
+            </a>
+</body>
+</html>
