@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kim anh CSS B4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="kimanh b4.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+    <style>
+        * {box-sizing: border-box;}
+
+        body { margin: 0;}
+    .header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+             }
+             .topnav {
+    overflow: hidden;
+    background-color: rgb(252, 15, 15);
+}
+p{
+        text-align: center;
+        color: rgb(15, 15, 15);
+        font-size: 13px;
+        font-family: arial;
+    }
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color:black ;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+    background: lightskyblue;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+    background: rgb(171, 240, 228);
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+        <div class="header">
+                <h1><img src="http://sango.us/images/tubep/icon-mobile.png" height="40" width="60">
+                    <img src="http://sango.us/sites/default/files/u10/logo_trong_roi.png"></h1>
+              </div>
+              <div class="topnav">
+                    <a href="#">Trang ch?</a>
+                    <a href="#">Gi?i thi?u</a>
+                    <a href="#">S?n ph?m</a>
+                    <a href="#">Tin t?c</a>
+                    <a href="#">Báo giá</a>
+                    <a href="#">Công trình</a>
+                    <a href="#">Liên h?</a>
+                  </div>
+                  <div class="row">
+                        <div class="column side">
+                          <h2>S?n ph?m</h2>
+                          <li>Sàn g? công nghi?p</li>
+                          <li>Sàn g? t? nhiên</li>
+                          <li>Sàn g? ngoài tr?i</li>
+                          <li>Sàn nh?a</li>
+                          <li>Sàn g? c?u thang</li><br>
+                        </div>
+                        <div class="column middle">
+                          <h2>Sàn G? PAGO</h2>
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUUMfvm82cB9uKjaKhVKVRQh29YA2cSSjIu-uEDCCRociFMhjUWQ">
+                          <br>
+                          <p><h1>Sa`n gô~ Pago s?n xu?t t?i Vi?t Nam:</h1><br>
+                                - 803*101*12mm (c?t xanh) KN: 245.000/m²<br>
+                                - 808*128*12mm (c?t tr?ng): 195.000/m²<br>
+                                - 808*128*8mm: 145.000/m²<br>
+                                
+                                Sàn g? pago du?c s?n xu?t theo công ngh? tiên ti?n nh?t c?a Châu Âu t?i Vi?t Nam, s?n ph?m dã du?c nghiên c?u và nhi?t d?i hóa cho phù h?p v?i di?u ki?n khí h?u các nu?c Châu Á là noi có d? ?m cao, s? chênh l?ch v? nhi?t d? gi?a các mùa l?n. <br>
+                                Bên c?nh các s?n ph?m lát sàn quen thu?c nhu g?ch men hay dá thì vi?c ?ng d?ng sàn g? công nghi?p vào lát sàn dã gi?i quy?t du?c yêu c?u mang tính m? thu?t cùng nhi?u ti?n ích ph?c v? ngu?i tiêu dùng. Nh?ng uu di?m dó d? dàng nh?n th?y nhu:<br>
+                                - Sàn g? PAGO có d?c tính ch?ng cào xu?c t?t trên th? tru?ng hi?n nay cùng các d?c tính quý giá nhu ch?u du?c nu?c, không gây d? ?ng cho ngu?i, du?c x? lý ch?ng n?m m?c, m?i m?t và gi?m d? ?n trong quá trình s? d?ng.<br>
+                                - M?u mã các vân g? c?a sàn g? PAGO phong phú du?c thi?t k? d?a trên các vân g? th?t c?a t?t c? các l?ai g? trên th? gi?i và màu s?c có th? t?o ra do ý thích c?a ngu?i s? d?ng, phù h?p v?i các không gian ki?n trúc.<br>
+                                - S?n ph?m g? lát sàn PAGO l?p d?t d? dàng b?i các hèm (khe âm) và lu?i (d?u duong) r?t chính xác, có th? l?p d?t ngay trên m?t sàn hi?n có, không dùng keo dán và không b? bong ra.<br>
+                                <h3>CÔNG TY CHÚNG TÔI XIN CAM K?T:</h3> <br>
+                                + Bán hàng dúng hãng, dúng ngu?n g?c xu?t x?.<br>
+                                + Th? l?p d?t chuyên nghi?p theo dúng tiêu chu?n k? thu?t.<br>
+                                + B?o hành c?a chính hãng (có gi?y BH). B?o trì s?n ph?m tr?n d?i.<br>
+                                Khi quý khách có nhu c?u làm sàn g? hay c?n tìm hi?u thông tin hãy g?i ngay cho chúng tôi<h3>0916.422.522.</h3> Chúng tôi s? tu v?n và mang m?u sàn g? công nghi?p d?n t?n nhà cho quý khách xem màu s?c và th? ch?t lu?ng mi?n phí.<br>
+                               <h3> Ghi chú:</h3><br>
+                                <h3>Tru?ng h?p khách hàng t? mua g? v? l?p d?t:</h3><br>
+                                + Ðon giá trên bao g?m ti?n chuy?n d?n công trình trong n?i thành Hà N?i (>=30m2)<br>
+                                + Ðon giá trên tính theo m2 ván sàn chua bao g?m công l?p d?t và phào n?p chân tu?ng<br>
+                                <h3>Tru?ng h?p khách hàng thuê chúng tôi thi công và l?p d?t:</h3><br>
+                                + Giá bán sàn g? + 30.000d/m2 (bao g?m nhân công và v?t li?u l?p d?t nhu keo, dinh, x?p lót… )<br>
+                    
+                                (M?i quý khách t?i showroom xem nhi?u màu d?p khác n?a c?a sàn g? này)<br>
+                               <a href="http://sango.us/san-go-khuyen-mai"> <img src="http://sango.us/sites/default/files/u10/khuyenmai.png" height="80" width="80">Xem khuy?n mãi t?i dây</a>
+                            </p>
+                                <p>Tag:
+                                 sàn g? Vi?t Nam, giá sàn g? pago, l?p sàn g? Pago, kho sàn g? Pago, g? lát sàn Vi?t Nam, g? lát sàn Pago</p>
+                        </div>
+                        <div class="column side">
+                          <h2>Tu v?n khách hàng</h2>
+                          <p> <img src="http://sango.us/images/tubep/mobile.png" height="30" width="30">
+                            0916 422 522<br>
+                            7h30 - 23h<br>
+                            <img src="http://sango.us/sites/default/files/u10/phone-icon.png"height="30" width="30"> 024 6285 2932<br>
+                             8h15 - 18h15</p><br>
+                             <h2>Khuy?n mãi</h2>
+                            <p>Sàn g? khuy?n mãi ...</p>
+                            <h2>Tin t?c sàn g?</h2>
+                           <a href="http://sango.us/huong-dan-quy-trinh-thi-cong-san-go"> <img src="http://sango.us/sites/default/files/styles/news-sec/public/tintuc-images/lap-san-go-cong-nghiep.jpg?itok=NLGTDf4g" height="100" width="200"><br>
+                            Hu?ng d?n quy trình thi công sàn g?</a><br>
+                           <a href="http://sango.us/vi-sao-sao-van-san-go-duoc-nhieu-nguoi-su-dung"> <img src="http://sango.us/sites/default/files/styles/news-sec/public/tintuc-images/van-san-go_0.jpg?itok=tDdmAkAC"height="100" width="200"><br>
+                            Vì sao sao ván sàn g? du?c nhi?u ngu?i s? d?ng</a><br>
+                            <a href="http://sango.us/tu-van-mau-sac-cua-san-go"><img src="http://sango.us/sites/default/files/styles/news-sec/public/tintuc-images/san_go_sennorwell_0.jpg?itok=NDJj3q5r"height="100" width="200"><br>
+                            Tu v?n màu s?c c?a sàn g?</a>>
+                           <a href="http://sango.us/loi-khuyen-cua-kien-truc-su-khi-lap-dat-van-san"> <img src="http://sango.us/sites/default/files/styles/news-sec/public/tintuc-images/san_go_nanotex_0.jpg?itok=uGtb3M-8"height="100" width="200" ><br>
+                        L?i khuyên c?a ki?n trúc su khi l?p d?t ván sàn</a>>
+                        </div>
+                      </div>
+                      <div class="footer">
+                            <p>Showroom 1: 23 Minh Khai - Q. Hai Bà Trung - Hà N?i<br>
+                                    Showroom 2: 339 Hoàng Qu?c Vi?t - C?u Gi?y - Hà N?i<br>
+                                    Van phòng: 38 Ð?i T?, Hoàng Mai, Hà N?i<br>
+                                    Ði?n tho?i: 024 6285 2932 | Hotline: 0916.422.522<br>
+                                    Email: sandep.jsc@gmail.com | Website: sandep.com.vn <br>
+                                    face icon youtube twitter rss Flick zing<br>
+                                    dmcab?o v?b? công thuong<br>
+                                    Copyright © sango.us  |  Website designed by VINNO<br>
+                                     <img src="http://sango.us/sites/default/files/u10/youtube.png">
+                                     <img src="http://sango.us/sites/default/files/u10/face.png">
+                                     <img src="http://sango.us/sites/default/files/u10/twitter.png">
+                                     <img src="http://sango.us/sites/default/files/u10/rss.png">
+                                     <br>
+                                     <img src="http://sango.us/sites/default/files/u10/dmca_0.png" >
+                                     <img src="http://sango.us/sites/default/files/u10/bao_ve.png">
+                                     <img src="http://sango.us/sites/default/files/u10/bo_cong_thuon.png">
+                                    </p>
+                          </div>
+</body>
+</html>
